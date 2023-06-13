@@ -11,7 +11,7 @@ def main():
     kk_img = pg.transform.flip(kk_img,True,False)
     tmr = 0
     while True:
-        for event in pg.event.get():
+        for event in pg.event.get() :
             if event.type == pg.QUIT: return
 
         screen.blit(bg_img, [0, 0])
